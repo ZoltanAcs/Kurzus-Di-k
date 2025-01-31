@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#coursesSection, #studentsSection {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#coursesList, #studentsList {
+    margin-top: 20px;
+}
+
+.item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.item button {
+    margin: 5px;
+    width: auto;
+    background-color: #007bff;
+    color: white;
+}
+
+.item button:hover {
+    background-color: #0056b3;
+}
+
+.deleteCourse, .deleteStudent {
+    background-color: #007BFF;
+    color: white;
+    padding: 6px 15px; /* Magasabb, kisebb szélesség */
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.deleteCourse:hover, .deleteStudent:hover {
+    background-color: #0056b3;
+}
+
+.deleteCourse:focus, .deleteStudent:focus {
+    outline: none;
+}
+
